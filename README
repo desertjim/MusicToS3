@@ -1,0 +1,8 @@
+About:
+
+MusicToS3 is just a sample android project showing how to record an audio file(3gp) and pushing it to Amazons's S3.
+
+Directions:
+1. Edit src/com/bacaj/musictoS3/AwsCredentials.properties to have the appropriate credentials for S3.
+2. Compile
+3. Run
