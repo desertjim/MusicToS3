@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<Spinner
+    android:id="@+id/bucket_spinner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:visibility="invisible"
+    />
+<EditText
+    android:id="@+id/file_name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/filename_hint"
+    android:visibility="invisible"
+    />
+<Button
+    android:id="@+id/record_button"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/record"
+    android:visibility="invisible"
+    android:enabled="false"
+    />
+<Button
+    android:id="@+id/play_button"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/play"
+    android:visibility="invisible"
+    android:enabled="false"
+    />
+<Button
+    android:id="@+id/stop_button"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/stop"
+    android:visibility="invisible"
+    android:enabled="false"
+    />
+<Button
+    android:id="@+id/push_button"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/push"
+    android:visibility="invisible"
+    android:enabled="false"
+    />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">MusicToS3</string>
+
+    <string name="filename_hint">Filename</string>
+    <string name="record">Record</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="push">Push to Cloud</string>
+
+    <string name="loading_message">Logging into S3</string>
+    <string name="loading_error">Error logging into S3</string>
+    <string name="loading_success">Success logging into S3</string>
+
+    <string name="ok">OK</string>
+    <string name="credential_error_message">AWS Credentials may not configured correctly.  Please review S3 documentation.</string>
+</resources>
